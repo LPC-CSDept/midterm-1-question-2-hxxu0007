@@ -1,13 +1,16 @@
 def main():
-    list1 = list(map(int, input().split()))
-    list2 = list(map(int, input().split()))
-    result = []
-    ##################################################
-    # Code your program here
-    ##################################################
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
+    i = 0
+    longest = shortest = ''
 
-    print(result)
-    return result
+    ########################################
+    # Do not delete the return statement
+    ########################################
+    return longest, shortest
 ##
 
 
