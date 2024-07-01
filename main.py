@@ -19,7 +19,11 @@ def main():
     else:
         shortest = word[1]
         longest = word[0]
-    for i in range()
+    for i in range(2, len(words)):
+        if(len(words[i]) > len(longest)):
+            longest = words[i]
+        if(len(words[i]) < len(shortest)):
+            shortest = words[i]
 
     ########################################
     # Do not delete the return statement
