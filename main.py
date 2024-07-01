@@ -13,12 +13,12 @@ def main():
             break
         words.append(word) 
     
-    if(len(words[0]) <= len(word[1])):
-        shortest = word[0]
-        longest = word[1]
+    if(len(words[0]) <= len(words[1])):
+        shortest = words[0]
+        longest = words[1]
     else:
-        shortest = word[1]
-        longest = word[0]
+        shortest = words[1]
+        longest = words[0]
     for i in range(2, len(words)):
         if(len(words[i]) > len(longest)):
             longest = words[i]
