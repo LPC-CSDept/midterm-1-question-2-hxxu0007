@@ -9,6 +9,8 @@ def main():
     words = []
     while True:
         word = input("Enter a word(type 'stop' to finish.):")
+        if(word.lower() == 'stop'):
+            break
 
     ########################################
     # Do not delete the return statement
