@@ -6,6 +6,8 @@ def main():
     """
     i = 0
     longest = shortest = ''
+    words = []
+    while True:
 
     ########################################
     # Do not delete the return statement
