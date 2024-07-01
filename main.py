@@ -8,6 +8,7 @@ def main():
     longest = shortest = ''
     words = []
     while True:
+        word = input("Enter a word(type 'stop' to finish.):")
 
     ########################################
     # Do not delete the return statement
