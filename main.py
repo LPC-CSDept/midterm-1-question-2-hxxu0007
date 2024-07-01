@@ -24,7 +24,8 @@ def main():
             longest = words[i]
         if(len(words[i]) < len(shortest)):
             shortest = words[i]
-
+    print(longest)
+    print(shortest)
     ########################################
     # Do not delete the return statement
     ########################################
